@@ -36,8 +36,8 @@ git diff commit
 ```
 git diff --cached commit
 ```
-4. 比较指定的两次提交**commit1**与**commit2**的差异
-大概就是`commit2-commit1`的差异
+4. 比较指定的两次提交**commit1**与**commit2**的差异  
+* 大概就是`commit2-commit1`的差异
 ```
 git diff commit1 commit2
 ```
