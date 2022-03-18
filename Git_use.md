@@ -22,3 +22,22 @@ git show HEAD~N
 ```
 git log -N
 ```
+### git diff的4种命令
+git分为**工作区**、**暂存区**、**对象区**。
+1. 比较**工作区**与**暂存区**之间的差异
+```
+git diff
+```
+2. 比较**给定commit ID**与**工作区**的差异
+```
+git diff commit
+```
+3. 比较**暂存区**与给定**commit ID**的差异
+```
+git diff --cached commit
+```
+4. 比较指定的两次提交**commit1**与**commit2**的差异
+大概就是`commit2-commit1`的差异
+```
+git diff commit1 commit2
+```
